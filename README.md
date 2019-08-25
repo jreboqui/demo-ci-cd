@@ -8,3 +8,5 @@ In order to run the app, use:
 npm install
 npm start
 ```
+Ding! It's there!
+http://jreboqui-sample-cicd.s3-website-us-west-1.amazonaws.com/
