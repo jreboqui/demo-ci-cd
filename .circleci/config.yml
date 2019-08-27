@@ -29,10 +29,10 @@ jobs:
       - run: npm run build:staging
       - aws-s3/sync:
           from: dist
-          to: s3://jreboqui-sample-cicd/'
+          to: 's3://jreboqui-sample-cicd/'
           arguments: |
-            --acl public-read 
-            --cache-control "max-age=86400" 
+            --acl public-read \
+            --cache-control "max-age=86400" \
           overwrite: true
 workflows:
   version: 2.1
