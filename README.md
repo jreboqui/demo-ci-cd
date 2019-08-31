@@ -10,3 +10,6 @@ npm start
 ```
 Ding! It's there!
 http://jreboqui-sample-cicd.s3-website-us-west-1.amazonaws.com/
+
+Another update: 
+I added job to run unit test for this project
