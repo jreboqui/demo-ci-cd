@@ -57,4 +57,4 @@ workflows:
               only: develop
   test:
     jobs:
-      -test
+      - test
